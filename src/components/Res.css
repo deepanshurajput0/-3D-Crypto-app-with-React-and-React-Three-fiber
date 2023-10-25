@@ -1,0 +1,25 @@
+.search-bar input{
+    height: 2rem;
+    width: 20rem;
+    position: fixed;
+    top: 1%;
+    left: 35%;
+    padding-left: 5px;
+}
+
+
+.btns{
+    
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+.search-bar input{
+    position: fixed;
+    top: 10%;
+    left: 7%;
+}
+.btns{
+    margin-left: 10px;
+}
+}
